@@ -1,0 +1,2 @@
+[ { "Airline" : "Delta" , "Destination" : "Atlanta", "DepartureDate" : "11/20/2020" , "DepartureTime" : "09:00:00", "ArrivalDate" : "11/20/2020", "ArrivalTime" : "12:00:00", "TravelRestriction" : "NO"},
+    {"Airline" : "United" , "Destination" : "New York City", "DepartureDate" : "11/22/2020" , "DepartureTime" : "13:00:00", "ArrivalDate" : "11/22/2020", "ArrivalTime" : "15:00:00", "TravelRestriction" : "YES"}]

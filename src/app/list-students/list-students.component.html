@@ -1,0 +1,8 @@
+<div >
+    <ul *ngFor ="let student of students let i = index" style="text-align: center;">
+      <li> {{student._id}}: {{student.firstName}} {{student.lastName}} 
+        <button mat-raised-button color="warn" (click)="onDelete(student._id)">DELETE</button>
+        <button mat-raised-button color="accent" [routerLink]="['/editStudent', student._id]">UPDATE</button>
+      </li>
+    </ul>
+</div>
